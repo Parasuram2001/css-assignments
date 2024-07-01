@@ -1,0 +1,17 @@
+#head{
+    color: blue;
+}
+.demi{
+    color: rgb(177, 98, 98);
+}
+#mor{
+    color: aqua;
+    background-color:yellow;
+}
+p,pre,article{
+    color: black;
+    background-color: chocolate;
+}
+*{
+    background-color: red;
+}

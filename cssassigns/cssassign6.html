@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+        }
+        @keyframes slide{
+            from{
+                transform:translateX(0);
+            }
+            to{
+                transform: translateX(-4000%);
+            }
+        }
+        article{
+            height: 160px;
+            width: 100%;
+            background-image: repeating-linear-gradient( rgba(53, 192, 234, 0.832) 0%,rgb(52, 210, 219) 100%);
+        }
+        #im{
+            height: 400px;
+            width: 100%;
+            background-image: url(/CSSASSIGNMENTS/gimage2.jpg);
+            background-repeat: no-repeat;
+            background-size: 100%;
+        }
+        #bla{
+            height: 400px;
+            width: 100%;
+            background-color: black;
+            background-size: 100%;
+        }
+        
+
+    </style>
+</head>
+<body>
+    <article></article>
+    <div id="im"></div>
+    <div id="bla">
+        <div id="wh"></div>
+        <div id="wh1"></div>
+    </div>
+</body>
+</html>
